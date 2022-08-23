@@ -1,7 +1,7 @@
 
 # 使用docker直接运行
 > 基于face-recognition,postgresql数据库制作的人脸识别镜像
-> 可以直接拉取使用
+> 下载docker可以直接拉取使用  不需要下载依赖配置环境等
 
 ![image](./1661250001952.png)
 
