@@ -3,7 +3,7 @@
 > 基于face-recognition,postgresql数据库制作的人脸识别镜像
 > 可以直接拉取使用
 
-![image](https://user-images.githubusercontent.com/68179477/186134421-e3dcd779-1ed9-4bde-b1ef-305b186f6854.png)
+![image](./src=http___img9.51tietu.net_pic_2019-091306_x0ypeoiug4vx0ypeoiug4v.jpg&refer=http___img9.51tietu.jpg)
 
 
 ### 依赖
