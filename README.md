@@ -47,7 +47,7 @@ docker run  --env dbhost="数据库ip或域名" --env dbuser="数据库账号" -
 
 #### 人脸注册
 
-域名:ip/face/registration  (Post请求)仅支持Formdata格式
+域名:端口/face/registration  (Post请求)仅支持Formdata格式
 
 参数:
 
@@ -71,7 +71,7 @@ docker run  --env dbhost="数据库ip或域名" --env dbuser="数据库账号" -
 #### 人脸验证
 
 参数
-域名:ip/face/verification (Post请求)仅支持Formdata格式
+域名:端口/face/verification (Post请求)仅支持Formdata格式
 
 | 键   | 含义                                  | 备注 |
 | ---- | ------------------------------------- | ---- |
@@ -91,7 +91,7 @@ docker run  --env dbhost="数据库ip或域名" --env dbuser="数据库账号" -
 
 #### 查询样本库人员
 
-域名:ip/face/all   (Get请求)
+域名:端口/face/all   (Get请求)
 
 回调
 
