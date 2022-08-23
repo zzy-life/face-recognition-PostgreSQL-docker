@@ -3,6 +3,31 @@
 > 基于face-recognition,postgresql数据库制作的人脸识别镜像
 > 可以直接拉取使用
 
+### 依赖
+
+依赖postgresql数据库
+
+可使用脚本文件初始化库，或自行设置
+
+```python
+import psycopg2
+
+
+def setup_db():
+    conn = psycopg2.connect(database="face", user="数据库账号", password="数据库密码", host="数据库域名或IP", port="5432")
+    db = conn.cursor()
+    db.execute("create extension if not exists cube;")
+    db.execute("drop table if exists vectors")
+    db.execute("create table vectors (id serial, username varchar,phone varchar ,mail varchar ,vec_data cube);")
+    db.execute("create index vectors_vec_idx on vectors (vec_data);")
+    db.execute("ALTER TABLE 'public'.'vectors' ADD PRIMARY KEY ('id');")
+    conn.commit()
+    conn.close()
+
+setup_db()
+```
+
+
 拉取镜像
 
 ```bash
