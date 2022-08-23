@@ -48,8 +48,14 @@ setup_db()
 
 拉取镜像
 
+amd64架构：
 ```bash
 docker pull registry.cn-hangzhou.aliyuncs.com/zzy_pi/face_postgresql:v1
+```
+
+arm64架构：
+```bash
+docker pull registry.cn-hangzhou.aliyuncs.com/zzy_pi/face_postgresql_arm64::v1
 ```
 
 运行命令
