@@ -10,6 +10,20 @@
 
 依赖postgresql数据库
 
+官方的cube类型受限，要使用docker安装扩容版的postgresql数据库
+
+ amd64架构： 
+
+```bash
+docker pull registry.cn-hangzhou.aliyuncs.com/zzy_pi/postgresql-large-cube:11.2-alpine
+```
+
+arm64架构：
+
+```bash
+docker pull registry.cn-hangzhou.aliyuncs.com/zzy_pi/postgresql-large-cube-arm64
+```
+
 可使用脚本文件初始化库，或自行设置
 
 ```python
