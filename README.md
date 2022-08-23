@@ -23,6 +23,7 @@ arm64架构：
 ```bash
 docker pull registry.cn-hangzhou.aliyuncs.com/zzy_pi/postgresql-large-cube-arm64
 ```
+如何运行请[查看](http://www.zhangzhiyu.live:8900/vuepress/guide/python/PostgreSQL%E7%89%88%E4%BA%BA%E8%84%B8%E6%A3%80%E7%B4%A2.html#docker%E4%B8%8B%E8%BD%BDpostgresql)
 
 可使用脚本文件初始化库，或自行设置
 
